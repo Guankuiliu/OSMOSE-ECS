@@ -1,0 +1,165 @@
+fisheries.enabled;true
+
+######################### Selectivities
+# Define age-selectivity for fisheries
+fisheries.selectivity.a50.fsh0;2.16
+fisheries.selectivity.a50.fsh1;0.78
+fisheries.selectivity.a50.fsh2;1.23
+fisheries.selectivity.a50.fsh3;1.34
+fisheries.selectivity.a50.fsh4;1.96
+fisheries.selectivity.a50.fsh5;1.67
+fisheries.selectivity.a50.fsh6;0.64
+fisheries.selectivity.a50.fsh7;3.21
+fisheries.selectivity.a50.fsh8;1.63
+fisheries.selectivity.a50.fsh9;2.86
+fisheries.selectivity.a50.fsh10;2.04
+fisheries.selectivity.a50.fsh11;0.39
+
+# define constant knife-edge selectivity for species 0
+fisheries.selectivity.type.fsh0;0
+fisheries.selectivity.type.fsh1;0
+fisheries.selectivity.type.fsh2;0
+fisheries.selectivity.type.fsh3;0
+fisheries.selectivity.type.fsh4;0
+fisheries.selectivity.type.fsh5;0
+fisheries.selectivity.type.fsh6;0
+fisheries.selectivity.type.fsh7;0
+fisheries.selectivity.type.fsh8;0
+fisheries.selectivity.type.fsh9;0
+fisheries.selectivity.type.fsh10;0
+fisheries.selectivity.type.fsh11;0
+
+######################################## Fbase
+# Defines the mortality rate for the fisheries
+fisheries.rate.base.fsh0;0.26
+fisheries.rate.base.fsh1;0.18
+fisheries.rate.base.fsh2;0.22
+fisheries.rate.base.fsh3;0.36
+fisheries.rate.base.fsh4;0.39
+fisheries.rate.base.fsh5;0.65
+fisheries.rate.base.fsh6;0.38
+fisheries.rate.base.fsh7;0.25
+fisheries.rate.base.fsh8;0.74
+fisheries.rate.base.fsh9;0.71
+fisheries.rate.base.fsh10;0.55
+fisheries.rate.base.fsh11;0.68
+
+fisheries.rate.byperiod.fsh0;1
+fisheries.rate.byperiod.fsh1;1
+fisheries.rate.byperiod.fsh2;1
+fisheries.rate.byperiod.fsh3;1
+fisheries.rate.byperiod.fsh4;1
+fisheries.rate.byperiod.fsh5;1
+fisheries.rate.byperiod.fsh6;1
+fisheries.rate.byperiod.fsh7;1
+fisheries.rate.byperiod.fsh8;1
+fisheries.rate.byperiod.fsh9;1
+fisheries.rate.byperiod.fsh10;1
+fisheries.rate.byperiod.fsh11;1
+
+######################################## Fseason
+
+# Defaults: fisheries have only one fishing season
+# Osmose 4.3.3 - Renamed parameter fisheries.season.number.fsh0 into fisheries.period.number.fsh0
+fisheries.period.number.fsh0;1
+fisheries.period.number.fsh1;1
+fisheries.period.number.fsh2;1
+fisheries.period.number.fsh3;1
+fisheries.period.number.fsh4;1
+fisheries.period.number.fsh5;1
+fisheries.period.number.fsh6;1
+fisheries.period.number.fsh7;1
+fisheries.period.number.fsh8;1
+fisheries.period.number.fsh9;1
+fisheries.period.number.fsh10;1
+fisheries.period.number.fsh11;1
+
+# Defaults: fisheries season equals 1
+fisheries.rate.bySeason.fsh0;1
+fisheries.rate.bySeason.fsh1;1
+fisheries.rate.bySeason.fsh2;1
+fisheries.rate.bySeason.fsh3;1
+fisheries.rate.bySeason.fsh4;1
+fisheries.rate.bySeason.fsh5;1
+fisheries.rate.bySeason.fsh6;1
+fisheries.rate.bySeason.fsh7;1
+fisheries.rate.bySeason.fsh8;1
+fisheries.rate.bySeason.fsh9;1
+fisheries.rate.bySeason.fsh10;1
+fisheries.rate.bySeason.fsh11;1
+
+# Seasons start at 0.
+# Osmose 4.3.3 - Renamed parameter fisheries.season.start.fsh0 into fisheries.period.start.fsh0
+fisheries.period.start.fsh0;0
+fisheries.period.start.fsh1;0
+fisheries.period.start.fsh2;0
+fisheries.period.start.fsh3;0
+fisheries.period.start.fsh4;0
+fisheries.period.start.fsh5;0
+fisheries.period.start.fsh6;0
+fisheries.period.start.fsh7;0
+fisheries.period.start.fsh8;0
+fisheries.period.start.fsh9;0
+fisheries.period.start.fsh10;0
+fisheries.period.start.fsh11;0
+
+######################################## Seasonality
+
+# Fisheries seasonality. Constants for the given season
+fisheries.seasonality.file.fsh0;fishing/fishing-seasonality-sp0.csv
+fisheries.seasonality.file.fsh1;fishing/fishing-seasonality-sp1.csv
+fisheries.seasonality.file.fsh2;fishing/fishing-seasonality-sp2.csv
+fisheries.seasonality.file.fsh3;fishing/fishing-seasonality-sp3.csv
+fisheries.seasonality.file.fsh4;fishing/fishing-seasonality-sp4.csv
+fisheries.seasonality.file.fsh5;fishing/fishing-seasonality-sp5.csv
+fisheries.seasonality.file.fsh6;fishing/fishing-seasonality-sp6.csv
+fisheries.seasonality.file.fsh7;fishing/fishing-seasonality-sp7.csv
+fisheries.seasonality.file.fsh8;fishing/fishing-seasonality-sp8.csv
+fisheries.seasonality.file.fsh9;fishing/fishing-seasonality-sp9.csv
+fisheries.seasonality.file.fsh10;fishing/fishing-seasonality-sp10.csv
+fisheries.seasonality.file.fsh11;fishing/fishing-seasonality-sp11.csv
+
+######################################## Names
+fisheries.name.fsh0;fishery0
+fisheries.name.fsh1;fishery1
+fisheries.name.fsh2;fishery2
+fisheries.name.fsh3;fishery3
+fisheries.name.fsh4;fishery4
+fisheries.name.fsh5;fishery5
+fisheries.name.fsh6;fishery6
+fisheries.name.fsh7;fishery7
+fisheries.name.fsh8;fishery8
+fisheries.name.fsh9;fishery9
+fisheries.name.fsh10;fishery10
+fisheries.name.fsh11;fishery11
+
+######################################## Catchabilities
+fisheries.catchability.file;fishery-catchability.csv
+fisheries.discards.file;fishery-discards.csv
+
+######################################## Maps
+fisheries.movement.fishery.map0;fishery0
+fisheries.movement.fishery.map1;fishery1
+fisheries.movement.fishery.map2;fishery2
+fisheries.movement.fishery.map3;fishery3
+fisheries.movement.fishery.map4;fishery4
+fisheries.movement.fishery.map5;fishery5
+fisheries.movement.fishery.map6;fishery6
+fisheries.movement.fishery.map7;fishery7
+fisheries.movement.fishery.map8;fishery8
+fisheries.movement.fishery.map9;fishery9
+fisheries.movement.fishery.map10;fishery10
+fisheries.movement.fishery.map11;fishery11
+
+fisheries.movement.file.map0;fishing/fishing-distrib.csv
+fisheries.movement.file.map1;fishing/fishing-distrib.csv
+fisheries.movement.file.map2;fishing/fishing-distrib.csv
+fisheries.movement.file.map3;fishing/fishing-distrib.csv
+fisheries.movement.file.map4;fishing/fishing-distrib.csv
+fisheries.movement.file.map5;fishing/fishing-distrib.csv
+fisheries.movement.file.map6;fishing/fishing-distrib.csv
+fisheries.movement.file.map7;fishing/fishing-distrib.csv
+fisheries.movement.file.map8;fishing/fishing-distrib.csv
+fisheries.movement.file.map9;fishing/fishing-distrib.csv
+fisheries.movement.file.map10;fishing/fishing-distrib.csv
+fisheries.movement.file.map11;fishing/fishing-distrib.csv

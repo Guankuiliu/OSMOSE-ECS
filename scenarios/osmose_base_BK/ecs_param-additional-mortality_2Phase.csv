@@ -1,0 +1,26 @@
+# Larva mortality rate;
+mortality.additional.larva.rate.sp0;18
+mortality.additional.larva.rate.sp1;14.5
+mortality.additional.larva.rate.sp2;20
+mortality.additional.larva.rate.sp3;24
+mortality.additional.larva.rate.sp4;10
+mortality.additional.larva.rate.sp5;7
+mortality.additional.larva.rate.sp6;7
+mortality.additional.larva.rate.sp7;13
+mortality.additional.larva.rate.sp8;13.5
+mortality.additional.larva.rate.sp9;11
+mortality.additional.larva.rate.sp10;11
+mortality.additional.larva.rate.sp11;13.5
+
+mortality.additional.rate.sp0;0.66
+mortality.additional.rate.sp1;0.72
+mortality.additional.rate.sp2;0.6
+mortality.additional.rate.sp3;0.56
+mortality.additional.rate.sp4;0.6
+mortality.additional.rate.sp5;1.07
+mortality.additional.rate.sp6;0.88
+mortality.additional.rate.sp7;0.25
+mortality.additional.rate.sp8;0.74
+mortality.additional.rate.sp9;0.41
+mortality.additional.rate.sp10;0.42
+mortality.additional.rate.sp11;0.96
